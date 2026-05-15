@@ -1,9 +1,8 @@
 # CP3-DSA-ATM-DEV
 Sistema ATM em C
 
-## Integrantes
+## Integrante
 - Jhon Cutile Titirico - RM: 571976
-- Nome 2
 ## Descrição
 Sistema simulador de caixa eletrônico desenvolvido em linguagem C.
 
@@ -22,8 +21,8 @@ Sistema simulador de caixa eletrônico desenvolvido em linguagem C.
 
 ## Compilação
 
-gcc src/main.c src/atm.c -o atm
+gcc main.c -o atm
 
 ## Execução
 
-./atm
+atm
