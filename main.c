@@ -93,17 +93,13 @@ float realizarSaque(float saldo) {
 
     if (valor <= 0) {
         printf("Valor invalido!\n");
-        delay(1000);
     } else if (valor > LIMITE_SAQUE) {
         printf("Limite diario excedido!\n");
-        delay(1000);
     } else if (valor > saldo) {
         printf("Saldo insuficiente!\n");
-        delay(1000);
     } else {
         saldo -= valor;
         printf("Saque realizado!\n");
-        delay(1000);
     }
 
     return saldo;
